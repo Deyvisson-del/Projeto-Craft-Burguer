@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap");
 
 
-body {
+* {
     margin: 0px;
     padding: 0px;
-    position: relative;
-    
+    box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: #dcdcdc;
+
+body {
+    position: relative;
 }
+
 
 header {
     background-image: url("../img/backgroundimg.jpg");
@@ -28,6 +28,7 @@ header {
     overflow: hidden;
 }
 
+
 footer {
     font-family: "Golos Text", sans-serif;
     font-size: 20px;
@@ -40,6 +41,7 @@ footer {
     height: 20%;
 }
 
+
 img {
     width: 324px;
     height: 390px;
@@ -47,14 +49,51 @@ img {
     border-radius: 8px;
 }
 
+
 span {
     text-align: center;
     color: #21909E;
 }
 
+
 span:hover {
     text-decoration: underline 4px #21909E;
 }
+
+a {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+#icone-insta {
+    width: 8%;
+    height: 4%;
+}
+
+.container-menu {
+    display: flex
+}
+
+
+.menu-horizontal {
+    list-style-type: none;
+    justify-content: center;
+}
+
+
+.menu-horizontal li {
+    margin: 0 15px;
+}
+
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
 
 .botton-test {
     font-size: 30px;
@@ -67,24 +106,30 @@ span:hover {
     color: #fffefe;
 }
 
+
 .botton-test:hover {
     text-decoration: underline 4px #fffefe;
     border: solid 4px #fffefe;
 }
 
+
 #link-address {
     color: black;
 }
+
 
 #link-address:hover {
     text-decoration: underline black 1px;
 }
 
+
 #titulo-background {
     font-size: 50px;
     position: relative;
     top: 20%;
+    color: #dcdcdc;
 }
+
 
 #logomarca {
     margin: 15px;
@@ -92,6 +137,7 @@ span:hover {
     width: 10%;
     height: 10%;
 }
+
 
 #paragraph-background {
     font-size: 20px;
@@ -104,6 +150,7 @@ span:hover {
     top: 20%;
 }
 
+
 .card {
     margin: 0px;
     margin-left: 5%;
@@ -113,10 +160,13 @@ span:hover {
     margin-bottom: 5%;
 }
 
+
 .text:hover {
     text-decoration: underline 4px #085992;
 }
 
-/* *{
+
+* {
     border: red solid 1px;
-} */
+    /* Visualização dos limites dos elementos */
+}
