@@ -12,7 +12,6 @@ body {
     position: relative;
 }
 
-
 header {
     background-image: url("../img/backgroundimg.jpg");
     background-size: cover;
@@ -65,19 +64,21 @@ a {
     color: #dcdcdc;
 }
 
+
 #icone-insta {
     width: 8%;
     height: 4%;
 }
 
 .container-menu {
-    display: flex
+    display: flex;
 }
 
 
 .menu-horizontal {
     list-style-type: none;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
@@ -131,11 +132,12 @@ a {
 }
 
 
-#logomarca {
+.logomarca {
     margin: 15px;
     display: flex;
-    width: 10%;
-    height: 10%;
+    width: 40%;
+    height: 80%;
+
 }
 
 
@@ -166,7 +168,6 @@ a {
 }
 
 
-* {
-    border: red solid 1px;
-    /* Visualização dos limites dos elementos */
-}
+/* * {
+  border: red solid 1px;
+} */
